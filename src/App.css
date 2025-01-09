@@ -1,0 +1,45 @@
+.navbar-brand img {
+  height: 30px;
+}
+
+.navbar-brand span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fa-bars {
+  font-size: 1.2rem;
+  color: #ffa500; /* Adjust color to match your theme */
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar {
+    flex-wrap: nowrap !important;
+  }
+}
+
+@media (max-width: 991px) {
+  form.d-flex.mb-2.mb-lg-0.search-bar {
+    display: none !important;
+  }
+}
+.msbc,
+.m-menu {
+  color: #ffa500;
+  font-size: 20px;
+  font-weight: 600;
+}
+.m-link {
+  color: #0f0f0e;
+  font-size: 15px;
+  font-weight: 400;
+}
