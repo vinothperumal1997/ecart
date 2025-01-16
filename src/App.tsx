@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css";
 import Dropdown from "./Dropdown";
+import logo from "./assets/ecartlogo1.png";
 
 const App = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -24,19 +25,36 @@ const App = () => {
       {/* First Row: Logo, Search Bar, and Icons */}
       <div className="nav-main">
         <Navbar bg="light" expand="lg" className="shadow-sm py-2">
-          <Container className="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+          <Container className="d-flex flex-column flex-lg-row justify-content-between align-items-center my-container">
             {/* Row 1 - Logo */}
             <Navbar.Brand
               href="#home"
               className="d-flex align-items-center mb-2 mb-lg-0"
             >
-              <img
-                src="/path/to/logo.png" // Replace with your logo path
-                alt="FreshCart Logo"
+              {/* <img
+                src="/assets/ecartlogo1.png" // Replace with your logo path
+                alt="ecart Logo"
                 style={{ height: "30px" }}
                 className="me-2"
+              /> */}
+
+              {/* <div className="my-container">
+                <div>Item 1</div>
+                <a href="#">Link</a>
+                <form>
+                  <input type="text" placeholder="Search" />
+                  <button type="submit">Submit</button>
+                </form>
+              </div> */}
+
+              <img
+                src={logo}
+                alt="ecart Logo"
+                style={{ height: "50px" }}
+                className="me-2"
               />
-              <span className="fw-bold text-dark">FreshCart</span>
+
+              <span className="fw-bold text-dark">ECART</span>
             </Navbar.Brand>
 
             {/* Row 1 - Search Bar */}
@@ -96,7 +114,7 @@ const App = () => {
         >
           <Container>
             <Nav className="w-100 justify-content-left">
-              <NavDropdown title="All Categories" id="categories-dropdown">
+              {/* <NavDropdown title="All Categories" id="categories-dropdown">
                 <NavDropdown.Item href="#electronics">
                   Electronics
                 </NavDropdown.Item>
@@ -104,7 +122,7 @@ const App = () => {
                 <NavDropdown.Item href="#home-appliances">
                   Home Appliances
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
               <Dropdown />
 
               <Nav.Link href="#home">Home</Nav.Link>

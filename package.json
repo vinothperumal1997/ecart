@@ -1,5 +1,5 @@
 {
-  "name": "ecart",
+  "name": "backend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@reduxjs/toolkit": "^2.5.0",
     "axios": "^1.7.9",
+    "backend": "file:",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.3.3",
     "ecart": "file:",
@@ -37,5 +38,10 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
 }

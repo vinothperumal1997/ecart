@@ -53,17 +53,26 @@ const Dropdown: React.FC = () => {
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="/shop?categories=gaming-accessories">
+            <a
+              className="dropdown-item"
+              href="/shop?categories=gaming-accessories"
+            >
               Gaming &amp; Accessories
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="/shop?categories=travel-clothing">
+            <a
+              className="dropdown-item"
+              href="/shop?categories=travel-clothing"
+            >
               Travel &amp; Clothing
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="/shop?categories=backpack-fashion-bags">
+            <a
+              className="dropdown-item"
+              href="/shop?categories=backpack-fashion-bags"
+            >
               Backpack &amp; Fashion Bags
             </a>
           </li>
